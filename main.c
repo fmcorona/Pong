@@ -21,8 +21,8 @@ int g_iLimitTime = 5;
 char g_cUpPlayer1 = 'w';
 char g_cDownPlayer1 = 's';
 
-char g_cUpPlayer2 = 24;
-char g_cDownPlayer2 = 25;
+char g_cUpPlayer2 = 30;
+char g_cDownPlayer2 = 31;
 
 FILE* fnOpenFileToRead( char* strNameOfFile );
 void fnCloseFile( FILE* pFile );
@@ -382,14 +382,14 @@ void fnPrintKeyboard( int x, int y )
 	fnCloseFile( pFile );
 	// up
 	gotoxy( iInitX + 50, iInitY + 1 );
-	printf( "%c", 24 );
+	printf( "%c", 30 );
 	// down
 	gotoxy( iInitX + 50, iInitY + 5 );
-	printf( "%c", 25 );
+	printf( "%c", 31 );
 	// left
 	gotoxy( iInitX + 46, iInitY + 3 );
-	printf( "%c", '<' );
+	printf( "%c", 17 );
 	// right
 	gotoxy( iInitX + 54, iInitY + 3 );
-	printf( "%c", '>' );
+	printf( "%c", 16 );
 }
