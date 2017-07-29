@@ -1,0 +1,14 @@
+
+  GAME:
+
+   Limite time:
+
+  CONTROLS:
+
+   Player 1 (left side)
+    up
+    down
+
+   Player 2 (right side)
+    up
+    down
